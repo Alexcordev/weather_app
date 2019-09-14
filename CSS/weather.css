@@ -1,0 +1,82 @@
+body {
+margin: 40px 40px 60px 40px;
+background-image: url(/weather_app/Images/clouds.png);
+
+}
+
+.row {
+    margin: 20px auto 5px auto;
+    border: 2px solid #0066ff;
+    
+}
+
+.column {
+    float: left;
+    width: 50%;
+   
+  }
+
+.previsions {
+    
+    width:95%;
+    height: 300px;
+    border: 2px solid gray;
+    display: inline-block;
+    background-color: #f0f5f5;
+    margin:20px 20px 20px 20px;
+    box-shadow: 8px 8px 5px #0a0f0f;
+   
+}
+
+h1 {
+    margin-left: 20px;
+    font-size: 45px;
+    color: #0066ff;
+}
+
+.rechercher {
+
+    background-color: #ffd633;
+    height: 75px;
+    border: 1px solid #b3b3b3;
+    box-shadow: 8px 8px 5px #1a1a1a;
+
+
+}
+
+#nomdeville {
+    margin-left: 20px;
+    margin-top: 15px;
+    padding:10px;
+    width: 300px;
+    
+
+}
+
+.bouton {
+    margin-top: 15px;
+    background-color: #0066ff;
+    padding: 10px;
+    width:auto;
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 30px;
+    
+}
+
+
+  /* Responsive layout - (600px largeur ou moins) */
+  @media screen and (max-width: 700px) {
+    .column {
+      width: 100%;
+    }
+
+    .logo {
+        display:none;
+    }
+
+    #nomdeville {
+
+        width: auto;
+    }
+  }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Météo</title>
+
+    <link rel="stylesheet" href="CSS/weather.css">
+
+</head>
+
+<body>
+
+<header>
+<div class="rechercher">
+
+    
+       <input type="text" name="nomdeville" id="nomdeville" placeholder="Entrez la ville à rechercher">
+
+       <button onclick='myFunction()' type="submit" class="bouton">Rechercher</button>
+
+       
+    
+
+</div>
+
+
+
+</header>
+    
+ <section>
+    
+
+  <div class="row">
+        <p id="city"></p>
+        
+
+    <div class="column">
+    
+        
+     <span class="previsions" id="weather">
+            <h1>Conditions Actuelles</h1><br />
+     </span>
+
+    </div>
+     <div class="column">
+            <span class="previsions" id="logo"> 
+
+
+            </span>
+
+     </div>
+
+         
+     </div>
+ </section>
+
+
+
+<script src="JS/weather.js"></script>
+</body>
+</html>
